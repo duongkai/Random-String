@@ -1,4 +1,4 @@
-#!/usr/bin/env python
+#!/usr/bin/env python3
 from random import randint, choice
 DICT_NAME = "my-short-nouns.dict"
 DICT_LEN = 30089 - 1
