@@ -1,6 +1,7 @@
 #!/usr/bin/env python3
 from random import randint, choice
-DICT_NAME = "my-short-nouns.dict"
+from os.path import dirname
+DICT_NAME = dirname (__file__) + "/Random-String/my-short-nouns.dict"
 DICT_LEN = 30089 - 1
 
 def get_random_word (rand_index):
